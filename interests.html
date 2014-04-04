@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Crowdfeeder</title>
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Add custom CSS here -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color: #f8f8f8;">
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="feeder.html"></a>
+            </div>
+
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </form>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="#about">Interests</a>
+                    </li>
+                    <li><a href="feeder.html">Feeder</a>
+                    </li>
+                    <li>
+                     <div class="btn-group">
+                          <button type="button" class="btn btn-default dropdown-toggle navbar-btn" data-toggle="dropdown"><img class="pic2 img-circle" src="http://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/twDq00QDud4/s120-c/photo.jpg" alt="...">
+                            Name <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" role="menu">
+
+                            <li><a href="account.html">Account</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="index.html">Log out</a></li>
+                          </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="margintop" style="background-color: #f8f8f8;">
+     <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Select your interests
+                    
+                </h1>
+            </div>
+
+        </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+            <form>
+                <div class="form-group">
+                    <p class="lead">Other interests</p>
+                    <div class="form-group input-group">
+                        <input type="text" name="multiple[]" class="form-control">
+                        <span class="input-group-btn"><button type="button" class="btn btn-default btn-add">+</button></span>
+                    </div>
+                    
+                </div>
+            </form>
+        </div>     
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/comics.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Comics</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                       
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/dance.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Dance</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/design.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Design</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+             
+
+
+        </div>
+
+        <div class="row ">
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+            </div>
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/fashion.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Fashion</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/film.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Film </h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/food.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Food</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+       
+
+
+        </div>
+
+        <div class="row ">
+             <div class="col-lg-3 col-md-6 hero-feature">
+            </div>
+
+                 <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/games.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Games</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                       
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/music.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Music</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/photo.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Photo</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                       
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+        <div class="col-lg-3 col-md-6 hero-feature">
+            </div>
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/publish.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Publish</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/tech.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Tech</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="img/theater.jpg" alt="">
+                    <div class="caption">
+                        <div class="row">
+                        <div class="col-md-8"><h3>Theater</h3></div>
+                        <div class="col-md-4"><a href="#" id="add" class="btn btn-primary btn-add">Add</a></div>  
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+
+            <input href="#modal-dialog" data-toggle="modal" id="cancel_profile_changes" type="button" class="btn btn-large btn-success big_blkbtn hide_margtp_35_a" value="S A V E">
+            <a style="margin-left:20px;" href="feeder.html" class="btn btn-info btn-md" ></i> <span class="network-name">Show projects</span></a>
+        </div>
+
+        <div id="modal-dialog" class="modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <a href="#" data-dismiss="modal" aria-hidden="true" class="close">×</a>
+                     <h3>Your interest are saved!</h3>
+                </div>
+                
+                <div class="modal-footer">
+                  <a href="#" data-dismiss="modal" id="btnConfirm" class="btn confirm">OK</a>
+                  <a href="feeder.html"  id="btnConfirm" class="btn confirm">Show me projects</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+            <div>
+        </div>
+
+        
+
+  
+
+     
+
+    </div>
+      <hr>
+    </div>
+
+   
+
+   
+
+    <footer>
+        <div class="container" style="padding-top:30px;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyleft &copy; Crowdfeeder 2014. All Wrongs Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>

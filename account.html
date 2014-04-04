@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Crowdfeeder</title>
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Add custom CSS here -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="feeder.html"></a>
+            </div>
+
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </form>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="interests.html">Interests</a>
+                    </li>
+                    <li><a href="feeder.html">Feeder</a>
+                    </li>
+                    <li>
+                    <div class="btn-group">
+                          <button type="button" class="btn btn-default dropdown-toggle navbar-btn" data-toggle="dropdown"><img class="pic2 img-circle" src="http://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/twDq00QDud4/s120-c/photo.jpg" alt="...">
+                            Name<span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" role="menu">
+                            
+                            <li><a href="account.html">Account</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="index.html">Log out</a></li>
+                          </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="content-section-a margin" style="padding-bottom:20px;">
+    
+        <div class="container">
+            <div class="row well">
+                <div class="col-md-2">
+                    <ul class="nav nav-pills nav-stacked well">
+                      <li  class="active"><a href="#"><i class="fa fa-envelope"></i> Compose</a></li>
+                      <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                      <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                      <li><a href="#"><i class="fa fa-key"></i> Security</a></li>
+                      <li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-10">
+                        <div class="panel">
+                            <img class="pic img-circle" src="http://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/twDq00QDud4/s120-c/photo.jpg" alt="...">
+                            <div class="name"><small>Name</small></div>
+                            <a href="#" class="btn btn-xs btn-primary pull-right" style="margin:10px;"><span class="glyphicon glyphicon-picture"></span> Change cover</a>
+                        </div>
+                        
+            <br><br><br>
+            <ul class="nav nav-tabs" id="myTab">
+              <li class="active"><a href="#inbox" data-toggle="tab"><i class="fa fa-envelope-o"></i> Inbox</a></li>
+              <li><a href="#sent" data-toggle="tab"><i class="fa fa-reply-all"></i> Sent</a></li>
+              <li><a href="#assignment" data-toggle="tab"><i class="fa fa-file-text-o"></i> Assignment</a></li>
+              <li><a href="#event" data-toggle="tab"><i class="fa fa-clock-o"></i> Event</a></li>
+            </ul>
+            
+            <div class="tab-content">
+              <div class="tab-pane active" id="inbox">
+                <a type="button" data-toggle="collapse" data-target="#a1">
+                    <div class="btn-toolbar well well-sm" role="toolbar"  style="margin:0px;">
+                      <div class="btn-group"><input type="checkbox"></div>
+                      <div class="btn-group col-md-3">Admin Kumar</div>
+                      <div class="btn-group col-md-8"><b>Hi Check this new Bootstrap plugin</b> <div class="pull-right"><i class="glyphicon glyphicon-time"></i> 12:10 PM <button class="btn btn-primary btn-xs" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-share-square-o"> Reply</i></button></div> </div>
+                    </div>
+                </a>
+                <div id="a1" class="collapse out well">This is the message body1</div>
+                <br>
+                <button class="btn btn-primary btn-xs"><i class="fa fa-check-square-o"></i> Delete Checked Item's</button>
+              </div>
+             
+               
+              <div class="tab-pane" id="sent">
+                    <a type="button" data-toggle="collapse" data-target="#s1">
+                    <div class="btn-toolbar well well-sm" role="toolbar"  style="margin:0px;">
+                      <div class="btn-group"><input type="checkbox"></div>
+                      <div class="btn-group col-md-3">Kumar</div>
+                      <div class="btn-group col-md-8"><b>This is reply from Bootstrap plugin</b> <div class="pull-right"><i class="glyphicon glyphicon-time"></i> 12:30 AM</div> </div>
+                    </div>
+                </a>
+                <div id="s1" class="collapse out well">This is the message body1</div>
+                <br>
+                <button class="btn btn-primary btn-xs"><i class="fa fa-check-square-o"></i> Delete Checked Item's</button>
+              </div>
+              
+              
+             <div class="tab-pane" id="assignment">
+                <a href=""><div class="well well-sm" style="margin:0px;">Open GL Assignments <span class="pull-right"><i class="glyphicon glyphicon-time"></i> 12:20 AM 20 Dec 2014 </span></div></a>        
+             </div>
+             
+             <div class="tab-pane" id="event">
+               <div class="media">
+                          <a class="pull-left" href="#">
+                            <img class="media-object img-thumbnail" width="100" src="http://cfi-sinergia.epfl.ch/files/content/sites/cfi-sinergia/files/WORKSHOPS/Workshop1.jpg" alt="...">
+                          </a>
+                          <div class="media-body">
+                            <h4 class="media-heading">Animation Workshop</h4>
+                            2Days animation workshop to be conducted
+                          </div>
+                    </div>
+            </div>
+            
+            
+                
+            </div>
+
+             </div>
+            </div>
+            
+            
+        </div>
+
+
+
+
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content"><br/><br/>
+                    <form class="form-horizontal">
+                    <fieldset>
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-2 control-label" for="body">Body :</label>  
+                      <div class="col-md-8">
+                      <input id="body" name="body" type="text" placeholder="Message Body" class="form-control input-md">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Textarea -->
+                    <div class="form-group">
+                      <label class="col-md-2 control-label" for="message">Message :</label>
+                      <div class="col-md-8">                     
+                        <textarea class="form-control" id="message" name="message"></textarea>
+                      </div>
+                    </div>
+                    
+                    <!-- Button -->
+                    <div class="form-group">
+                      <label class="col-md-2 control-label" for="send"></label>
+                      <div class="col-md-8">
+                        <button id="send" name="send" class="btn btn-primary">Send</button>
+                      </div>
+                    </div>
+                    
+                    </fieldset>
+                    </form>
+
+            </div>
+          </div>
+        </div>
+        <hr>
+    </div>
+
+
+    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyleft &copy; Crowdfeeder 2014. All Wrongs Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>

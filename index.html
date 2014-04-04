@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Crowdfeeder</title>
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Add custom CSS here -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"></a>
+            </div>
+
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </form>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><button type="button" class="btn btn-default navbar-btn"><a href="feeder.html">Sign in</a></button>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="intro-header">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+
+                        <h1 class="dots"><img class="pac"src="img/pac.png">rowdfeeder</h1>
+                        <h3>FUN. FAST. FUND.</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li><a class="btn btn-success btn-md" href="#signup" data-toggle="modal" data-target=".bs-modal-sm"><span class="network-name">Sign up</span></a>
+                            </li>OR
+                            <li><a href="feeder.html" class="btn btn-warning btn-md" ></i> <span class="network-name">Sign in</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+        <div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <br>
+                        <div class="bs-example bs-example-tabs">
+                            <ul id="myTab" class="nav nav-tabs">
+                              <li class="active"><a href="#signin" data-toggle="tab">Sign In</a></li>
+                              <li class=""><a href="#signup" data-toggle="tab">Register</a></li>
+                              
+                            </ul>
+                        </div>
+                      <div class="modal-body">
+                        <div id="myTabContent" class="tab-content">
+                        
+                        <div class="tab-pane fade active in" id="signin">
+                            <form class="form-horizontal">
+                            <fieldset>
+                            <!-- Sign In Form -->
+                            <!-- Text input-->
+                            <div class="control-group">
+                              <label class="control-label" for="userid">Alias:</label>
+                              <div class="controls">
+                                <input required="" id="userid" name="userid" type="text" class="form-control" placeholder="JoeSixpack" class="input-medium" required="">
+                              </div>
+                            </div>
+
+                            <!-- Password input-->
+                            <div class="control-group">
+                              <label class="control-label" for="passwordinput">Password:</label>
+                              <div class="controls">
+                                <input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
+                              </div>
+                            </div>
+
+                            <!-- Multiple Checkboxes (inline) -->
+                            <div class="control-group">
+                              <label class="control-label" for="rememberme"></label>
+                              <div class="controls">
+                                <label class="checkbox inline" for="rememberme-0">
+                                  <input type="checkbox" name="rememberme" id="rememberme-0" value="Remember me">
+                                  Remember me
+                                </label>
+                              </div>
+                            </div>
+
+                            <!-- Button -->
+                            <div class="control-group">
+                              <label class="control-label" for="signin"></label>
+                              <div class="controls">
+                                <button id="signin" name="signin" class="btn btn-success">Sign In</button>
+                              </div>
+                            </div>
+                            </fieldset>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="signup">
+                            <form class="form-horizontal">
+                            <fieldset>
+                            <!-- Sign Up Form -->
+                            <!-- Text input-->
+                            <div class="control-group">
+                              <label class="control-label" for="Email">Email:</label>
+                              <div class="controls">
+                                <input id="Email" name="Email" class="form-control" type="text" placeholder="JoeSixpack@sixpacksrus.com" class="input-large" required="">
+                              </div>
+                            </div>
+                            
+                            <!-- Text input-->
+                            <div class="control-group">
+                              <label class="control-label" for="userid">Alias:</label>
+                              <div class="controls">
+                                <input id="userid" name="userid" class="form-control" type="text" placeholder="JoeSixpack" class="input-large" required="">
+                              </div>
+                            </div>
+                            
+                            <!-- Password input-->
+                            <div class="control-group">
+                              <label class="control-label" for="password">Password:</label>
+                              <div class="controls">
+                                <input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
+                                <em>1-8 Characters</em>
+                              </div>
+                            </div>
+                            
+                            <!-- Text input-->
+                            <div class="control-group">
+                              <label class="control-label" for="reenterpassword">Re-Enter Password:</label>
+                              <div class="controls">
+                                <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
+                              </div>
+                            </div>
+                            
+                            <!-- Multiple Radios (inline) -->
+                            <br>
+                            <div class="control-group">
+                              <label class="control-label" for="humancheck">Humanity Check:</label>
+                              <div class="controls">
+                                <label class="radio inline" for="humancheck-0">
+                                  <input type="radio" name="humancheck" id="humancheck-0" value="robot" checked="checked">I'm a Robot</label>
+                                <label class="radio inline" for="humancheck-1">
+                                  <input type="radio" name="humancheck" id="humancheck-1" value="human">I'm Human</label>
+                              </div>
+                            </div>
+                            
+                            <!-- Button -->
+                            <div class="control-group">
+                              <label class="control-label" for="confirmsignup"></label>
+                              <div class="controls">
+                                <a href="interests.html" class="btn btn-success btn-md" ></i> <span class="network-name">Sign up</span></a>
+                              </div>
+                            </div>
+                            </fieldset>
+                            </form>
+                      </div>
+                    </div>
+                      </div>
+                      <div class="modal-footer">
+                      <center>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+    </div>
+    <!-- /.intro-header -->
+
+    <div class="content-section-a">
+<div class="container">
+    <div class="page-header">
+        <h1 id="timeline">How does it work?</h1>
+    </div>
+    <ul class="timeline">
+        <li>
+          <div class="timeline-badge">1</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Choose your interests</h4>
+            </div>
+            <div class="timeline-body">
+              <p>You can also type in keywords to give it an extra personalized feel <img class="klein" src="img/macbook-interests.png"></p>
+
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning">2</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Use the feeder to check out relevant projects</h4>
+            </div>
+            <div class="timeline-body">
+              <p>All the projects related to your keywords and/or interests will be shown<img class="klein" src="img/macbook-feeder.png"></p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge danger">3</div>
+          <div class="timeline-panel marginbottom">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Manage all your favorite platforms on one website</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Kickstarter, Indiegogo and many more!<img class="klein" src="img/crowdfunding-platforms.png"></p>
+            </div>
+          </div>
+        </li>
+        
+    </ul>
+</div>      <br \>
+      <br \>
+      <br \>
+      <br \>
+      <br \>
+     
+
+     
+      <br \>
+      <br \>
+      <br \>
+      <br \>
+      <br \>
+<hr>
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyleft &copy; Crowdfeeder 2014. All Wrongs Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
